@@ -1,4 +1,4 @@
-import { cpus as _cpus, totalmem, freemem } from 'os'
+Fimport { cpus as _cpus, totalmem, freemem } from 'os'
 import util from 'util'
 import os from 'os'
 import osu from 'node-os-utils'
