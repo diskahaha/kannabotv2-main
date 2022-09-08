@@ -174,7 +174,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\n𝗞\na\nn\nn\na\n-\n𝗕\n𝗢\n𝗧\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `𝕭𝖔𝖙 • [A]ndii ∅༢࿔ྀ`
 
 global.multiplier = 38 // The higher, The harder levelup
 
