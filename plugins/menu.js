@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 ® ${pmenus} DILARANG SPAM BOT | *JIKA BELUM BERDONASI*
 ® ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN | *PASTI FAHAMLAH*
-® ${pmenus} By :`, rowId: ".donasi", description: `${namebot}`},
+® ${pmenus} OWNER ADALAH DEWA`, rowId: ".donasi", description: `${namebot}`},
 	    //{title: ` ${pmenus} GUNAKAN BOT SEBAIK MUNGKIN`, description: "Pasti Fahamlah"},
 	    //{title: `🚥 ${pmenus} OWNER ADALAH DEWA`, description: `${namebot}`},
 	]
@@ -231,6 +231,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".ping", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
@@ -290,10 +291,10 @@ ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '𝕭𝖔𝖙 • [A]ndii ∅༢࿔ྀ',
+  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `KLIK MEK 💦`,
+  buttonText: `CLICK HERE ⎙`,
   sections
 }
   if (teks == '404') {
